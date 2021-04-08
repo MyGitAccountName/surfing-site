@@ -1,7 +1,4 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/style\.scss}line{font-family:\000031}}
-* {
-  box-sizing: border-box; }
-
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;700&display=swap");
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\000031}}
 .left {
   text-align: left; }
@@ -170,5 +167,123 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\00003104}}
   .hidden-sm {
     display: block; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\000033}}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\000039}}
+body {
+  font: 1em "Poppins", sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000313}}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif;
+  color: #333; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000318}}
+a {
+  color: rgba(35, 36, 40, 0.9);
+  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000321}}
+  a:hover {
+    color: #5da8ef; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000326}}
+img {
+  max-width: 100%;
+  height: auto; }
+
+/* block site start */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000332}}
+.site-header {
+  padding: 80px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000334}}
+  .site-header .site-logo {
+    margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000339}}
+  .site-header .site-nav {
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 0.7em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000345}}
+    .site-header .site-nav ul {
+      display: flex;
+      list-style-type: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000348}}
+      .site-header .site-nav ul li {
+        margin: 0 20px; }
+
+/* block site end */
+/* hero site start */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000358}}
+.hero {
+  position: relative;
+  margin-bottom: 150px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000361}}
+  .hero .hero__text {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+    width: 35%;
+    /*top: 50%;
+    transform: translateY(-50%);*/ }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000371}}
+    .hero .hero__text .info-block__subtitle {
+      text-transform: uppercase;
+      letter-spacing: 0.4em;
+      font-weight: bold;
+      color: #5da8ef;
+      font-size: 0.7rem;
+      font-family: "Poppins", sans-serif;
+      display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000378}}
+    .hero .hero__text .info-block__title--bigger {
+      font-size: 1.7rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000383}}
+    .hero .hero__text .info-block__body p {
+      width: 72%;
+      font-size: 0.7rem;
+      text-shadow: 0px 0px 2px red;
+      /*color: $info-block-color;*/
+      color: blue; }
+
+/* hero site end */
+/* block quote start */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000398}}
+.quote {
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\00003101}}
+  .quote::after {
+    content: "";
+    display: block;
+    background-color: #5da8ef;
+    width: 2px;
+    height: 100px;
+    margin: 35px auto 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\00003110}}
+  .quote__body {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    color: #333; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\00003116}}
+  .quote__name {
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    font-weight: bold;
+    font-size: 0.6rem;
+    font-style: normal; }
+
+/* block quote end */
+@media only screen and (max-width: 45em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_media\.scss}line{font-family:\000032}}
+  .site-logo {
+    text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */
