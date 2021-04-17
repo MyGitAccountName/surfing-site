@@ -1,53 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;700&display=swap");
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\000031}}
 .left {
   text-align: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\000035}}
 .right {
   text-align: right; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\000039}}
 .center {
   margin-right: auto;
   margin-left: auto;
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000316}}
 .justify {
   text-align: justify; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000320}}
 .hidden-sm {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000332}}
 .container {
   width: 90%;
   margin-right: auto;
   margin-left: auto; }
   @media only screen and (min-width: 33.75em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000332}}
     .container {
       width: 80%; } }
   @media only screen and (min-width: 60em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000332}}
     .container {
-      max-width: 1200px; } }
+      max-width: 1225px; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000346}}
 .row {
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000350}}
 .row--centered {
   align-items: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000354}}
 .row [class^="col"] {
   min-height: 0.125rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000358}}
 .col-1,
 .col-2,
 .col-3,
@@ -60,149 +48,119 @@
 .col-10,
 .col-11,
 .col-12 {
-  width: 98%; }
+  width: 98%;
+  /*border: 1px solid green;*/ }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000373}}
 .col-1-sm {
   width: 6.3333333333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000374}}
 .col-2-sm {
   width: 14.6666666667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000375}}
 .col-3-sm {
   width: 23%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000376}}
 .col-4-sm {
   width: 31.3333333333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000377}}
 .col-5-sm {
   width: 39.6666666667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000378}}
 .col-6-sm {
   width: 48%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000379}}
 .col-7-sm {
   width: 56.3333333333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000380}}
 .col-8-sm {
   width: 64.6666666667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000381}}
 .col-9-sm {
   width: 73%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000382}}
 .col-10-sm {
   width: 81.3333333333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000383}}
 .col-11-sm {
   width: 89.6666666667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000384}}
 .col-12-sm {
   width: 98%; }
 
 @media only screen and (min-width: 45em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000387}}
   .row {
     display: flex;
     justify-content: space-between; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000391}}
   .col-1 {
     width: 6.3333333333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000392}}
   .col-2 {
-    width: 14.6666666667%; }
+    width: 14.6666666667%;
+    flex-grow: 2; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000393}}
   .col-3 {
     width: 23%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000394}}
   .col-4 {
     width: 31.3333333333%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000395}}
   .col-5 {
     width: 39.6666666667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000396}}
   .col-6 {
-    width: 48%; }
+    width: 48%;
+    flex-basis: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000397}}
   .col-7 {
-    width: 56.3333333333%; }
+    width: 56.3333333333%;
+    flex-basis: 706px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000398}}
   .col-8 {
     width: 64.6666666667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\0000399}}
   .col-9 {
     width: 73%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\00003100}}
   .col-10 {
-    width: 81.3333333333%; }
+    width: 81.3333333333%;
+    flex-basis: 1016px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\00003101}}
   .col-11 {
     width: 89.6666666667%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\00003102}}
   .col-12 {
     width: 98%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_grid\.scss}line{font-family:\00003104}}
   .hidden-sm {
     display: block; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\000033}}
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\000039}}
 body {
   font: 1em "Poppins", sans-serif; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000313}}
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", serif;
   color: #333; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000318}}
 a {
   color: rgba(35, 36, 40, 0.9);
   text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000321}}
   a:hover {
     color: #5da8ef; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000326}}
 img {
   max-width: 100%;
   height: auto; }
 
 /* block site start */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000332}}
 .site-header {
-  padding: 80px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000334}}
+  padding: 30px 0; }
   .site-header .site-logo {
     margin-bottom: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000339}}
   .site-header .site-nav {
     text-transform: uppercase;
     letter-spacing: 0.4em;
@@ -211,30 +169,29 @@ img {
     align-items: center;
     height: 100%;
     font-size: 0.7em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000345}}
     .site-header .site-nav ul {
       display: flex;
       list-style-type: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000348}}
       .site-header .site-nav ul li {
-        margin: 0 20px; }
+        margin: 0 40px 0 0; }
 
 /* block site end */
 /* hero site start */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000358}}
 .hero {
   position: relative;
   margin-bottom: 150px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000361}}
+  .hero .col-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; }
   .hero .hero__text {
     display: flex;
     align-items: center;
     height: 100%;
     position: absolute;
-    width: 35%;
+    width: 40%;
     /*top: 50%;
     transform: translateY(-50%);*/ }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000371}}
     .hero .hero__text .info-block__subtitle {
       text-transform: uppercase;
       letter-spacing: 0.4em;
@@ -243,46 +200,196 @@ img {
       font-size: 0.7rem;
       font-family: "Poppins", sans-serif;
       display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000378}}
     .hero .hero__text .info-block__title--bigger {
-      font-size: 1.7rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000383}}
+      font-size: 1.95rem; }
     .hero .hero__text .info-block__body p {
-      width: 72%;
-      font-size: 0.7rem;
-      text-shadow: 0px 0px 2px red;
-      /*color: $info-block-color;*/
-      color: blue; }
+      width: 80%;
+      font-size: 0.925rem;
+      color: #8f8f8f; }
+  .hero .hero__pages {
+    /*position: absolute;*/
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.7rem;
+    color: #ebebeb;
+    /*    font-weight: 600;*/
+    margin-bottom: 3px; }
+    .hero .hero__pages a {
+      font-weight: 400;
+      font-size: 1rem; }
+      .hero .hero__pages a .icon {
+        filter: invert(0.9); }
+      .hero .hero__pages a:hover .icon {
+        filter: invert(0.1); }
+    .hero .hero__pages span {
+      text-transform: uppercase;
+      letter-spacing: 0.4em;
+      font-weight: bold; }
+    .hero .hero__pages_current {
+      color: #5da8ef;
+      margin-left: 20px; }
+    .hero .hero__pages_all {
+      color: #333;
+      margin-right: 15px; }
 
 /* hero site end */
 /* block quote start */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\0000398}}
 .quote {
-  text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\00003101}}
+  text-align: center;
+  margin-top: 175px; }
   .quote::after {
     content: "";
     display: block;
     background-color: #5da8ef;
     width: 2px;
     height: 100px;
-    margin: 35px auto 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\00003110}}
+    margin: 45px auto 0; }
   .quote__body {
     font-family: "Playfair Display", serif;
     font-weight: 400;
-    color: #333; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_theme\.scss}line{font-family:\00003116}}
+    color: #333;
+    font-size: 1.65rem;
+    width: 52%;
+    margin: 25px auto; }
   .quote__name {
     text-transform: uppercase;
     letter-spacing: 0.4em;
     font-weight: bold;
-    font-size: 0.6rem;
-    font-style: normal; }
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 700; }
 
 /* block quote end */
+.media {
+  position: relative;
+  margin-top: 62px; }
+  .media .col-5 {
+    padding-left: 8.3%; }
+  .media p {
+    margin: 40px 15px;
+    font-size: 0.925rem;
+    color: #8f8f8f; }
+  .media a {
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    font-weight: bold;
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0 15px; }
+    .media a::after {
+      content: "";
+      display: block;
+      background-color: #5da8ef;
+      height: 2px;
+      width: 100px;
+      margin: 5px 15px; }
+  .media__image {
+    max-width: 50%; }
+  .media__movie {
+    position: absolute;
+    top: 43px;
+    /*max-width: 706px;*/
+    width: 57.7%; }
+    .media__movie::after {
+      content: url("../../assets/img/play.png");
+      width: 68px;
+      height: 68px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      top: 43.8%; }
+
+.shop {
+  text-align: center;
+  /*height: 405px;*/ }
+  .shop h1 {
+    font-size: 2.9rem;
+    margin-top: 195px;
+    margin-bottom: 170px; }
+  .shop__subtitle {
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    font-weight: bold;
+    color: #5da8ef;
+    font-size: 0.7rem;
+    font-family: "Poppins", sans-serif;
+    display: block; }
+  .shop__item {
+    position: relative;
+    width: 250px;
+    height: 320px;
+    background-color: #e6e6e6; }
+    .shop__item img {
+      position: absolute;
+      top: -113px;
+      left: 25%; }
+
+/*    &__item {
+      position: absolute;
+      width: 20.41%;
+      height: 320px;
+      background-color: #e6e6e6;
+
+      img {
+        position: absolute;
+        top: -113px;
+        left: 25%;
+      }
+    }*/
+.training {
+  margin-top: 120px; }
+  .training__info {
+    margin-left: 18%;
+    /*    & span {
+          color: #f9f9f9;
+          font-size: 90px;
+        }*/ }
+    .training__info h1 {
+      position: relative;
+      margin-top: 78px;
+      font-size: 2.9rem; }
+      .training__info h1::before {
+        position: absolute;
+        top: -130px;
+        content: "01";
+        font-family: "Poppins", sans-serif;
+        font-size: 150px;
+        font-weight: 600;
+        color: #f9f9f9;
+        z-index: -1; }
+      .training__info h1::after {
+        content: "";
+        display: block;
+        background-color: #5da8ef;
+        height: 3px;
+        width: 24px;
+        margin: 7px 0; }
+    .training__info p {
+      margin: 25px 0 60px;
+      width: 110%;
+      font-size: 0.925rem;
+      color: #8f8f8f; }
+    .training__info a {
+      text-transform: uppercase;
+      letter-spacing: 0.4em;
+      font-weight: bold;
+      font-size: 0.7rem;
+      font-style: normal;
+      font-weight: 700; }
+      .training__info a::after {
+        content: "";
+        display: block;
+        background-color: #5da8ef;
+        height: 2px;
+        width: 100px;
+        margin: 5px 0; }
+  .training .col-8 {
+    flex-basis: 762px;
+    z-index: -100; }
+
 @media only screen and (max-width: 45em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Student\/Desktop\/BD\/sites\/surfing-site\/assets\/scss\/_media\.scss}line{font-family:\000032}}
   .site-logo {
     text-align: center; } }
 

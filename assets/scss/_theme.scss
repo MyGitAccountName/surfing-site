@@ -10,7 +10,7 @@ body {
   font: 1em $body;
 }
 
-h1, h2, h3, h4 ,h5 ,h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: $headings;
   color: $heading-color;
 }
@@ -18,6 +18,7 @@ h1, h2, h3, h4 ,h5 ,h6 {
 a {
   color: $link-color;
   text-decoration: none;
+
   &:hover {
     color: $brand-color;
   }
@@ -30,11 +31,11 @@ img {
 
 /* block site start */
 .site-header {
-  padding: 80px 0;
+  padding: 30px 0;
+
   .site-logo {
     margin-bottom: 10px;
   }
-
 
   .site-nav {
     @include uppercase();
@@ -42,11 +43,13 @@ img {
     align-items: center;
     height: 100%;
     font-size: 0.7em;
+
     ul {
       display: flex;
       list-style-type: none;
+
       li {
-        margin: 0 20px;
+        margin: 0 40px 0 0;
       }
     }
   }
@@ -58,12 +61,19 @@ img {
 .hero {
   position: relative;
   margin-bottom: 150px;
+
+  .col-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
   .hero__text {
     display: flex;
     align-items: center;
     height: 100%;
     position: absolute;
-    width: 35%;
+    width: 40%;
     /*top: 50%;
     transform: translateY(-50%);*/
 
@@ -75,28 +85,70 @@ img {
         font-family: $body;
         display: block;
       }
+
       &__title--bigger {
-        font-size: 1.7rem;
+        font-size: 1.95rem;
       }
 
       &__body {
         p {
-          width: 72%;
-          font-size: 0.7rem;
-          text-shadow: 0px 0px 2px red;
-          /*color: $info-block-color;*/
-          color: blue;
+          width: 80%;
+          font-size: 0.925rem;
+          color: $info-block-color;
         }
       }
     }
   }
 
+  .hero__pages {
+    /*position: absolute;*/
+    display: flex;
+    font-family: $body;
+    font-size: 0.7rem;
+    color: $light-gray;
+/*    font-weight: 600;*/
+    margin-bottom: 3px;
+
+    a {
+      font-weight: 400;
+      font-size: 1rem;
+
+      .icon {
+        filter: invert(0.9);
+      }
+
+      &:hover {
+        .icon {
+          filter: invert(0.1);
+        }
+      }
+
+    }
+
+    span {
+      @include uppercase();
+    }
+
+    &_current {
+      color: $brand-color;
+      margin-left: 20px;
+    }
+
+    &_all {
+      color: $heading-color;
+      margin-right: 15px;
+    }
+
+  }
 }
+
+
 /* hero site end */
 
 /* block quote start */
 .quote {
   text-align: center;
+  margin-top: 175px;
 
   &::after {
     content: "";
@@ -104,19 +156,190 @@ img {
     background-color: $brand-color;
     width: 2px;
     height: 100px;
-    margin: 35px auto 0;
+    margin: 45px auto 0;
   }
 
   &__body {
     font-family: $headings;
     font-weight: 400;
     color: $heading-color;
+    font-size: 1.65rem;
+    width: 52%;
+    margin: 25px auto;
   }
 
   &__name {
     @include uppercase();
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     font-style: normal;
+    font-weight: 700;
   }
 }
+
 /* block quote end */
+
+.media {
+  position: relative;
+  margin-top: 62px;
+
+  & .col-5 {
+    padding-left: 8.3%;
+  }
+
+  & p {
+    margin: 40px 15px;
+    font-size: 0.925rem;
+    color: $info-block-color;
+  }
+
+  & a {
+    @include uppercase();
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0 15px;
+
+    &::after {
+      content: "";
+      display: block;
+      background-color: $brand-color;
+      height: 2px;
+      width: 100px;
+      margin: 5px 15px;
+    }
+  }
+
+  &__image {
+    max-width: 50%;
+  }
+
+  &__movie {
+    position: absolute;
+    top: 43px;
+    /*max-width: 706px;*/
+    width: 57.7%;
+
+    &::after {
+      content: url("../../assets/img/play.png");
+      width: 68px;
+      height: 68px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      top: 43.8%;
+    }
+  }
+}
+
+.shop {
+  text-align: center;
+  /*height: 405px;*/
+
+  h1 {
+    font-size: 2.9rem;
+    margin-top: 195px;
+    margin-bottom: 170px;
+  }
+
+  &__subtitle {
+    @include uppercase();
+    color: $brand-color;
+    font-size: 0.7rem;
+    font-family: $body;
+    display: block;
+  }
+
+  &__item {
+    position: relative;
+    width: 250px;
+    height: 320px;
+    background-color: #e6e6e6;
+
+    img {
+      position: absolute;
+      top: -113px;
+      left: 25%;
+    }
+  }
+}
+
+/*    &__item {
+      position: absolute;
+      width: 20.41%;
+      height: 320px;
+      background-color: #e6e6e6;
+
+      img {
+        position: absolute;
+        top: -113px;
+        left: 25%;
+      }
+    }*/
+
+.training {
+  margin-top: 120px;
+
+  &__info {
+    margin-left: 18%;
+
+    & h1 {
+      position: relative;
+      margin-top: 78px;
+      font-size: 2.9rem;
+
+      &::before {
+        position: absolute;
+        top: -130px;
+        content: "01";
+        font-family: "Poppins", sans-serif;
+        font-size: 150px;
+        font-weight: 600;
+        color: #f9f9f9;
+        z-index: -1;
+      }
+
+      &::after {
+        content: "";
+        display: block;
+        background-color: $brand-color;
+        height: 3px;
+        width: 24px;
+        margin: 7px 0;
+      }
+    }
+
+    & p {
+      margin: 25px 0 60px;
+      width: 110%;
+      font-size: 0.925rem;
+      color: $info-block-color;
+    }
+
+    & a {
+      @include uppercase();
+      font-size: 0.7rem;
+      font-style: normal;
+      font-weight: 700;
+
+      &::after {
+        content: "";
+        display: block;
+        background-color: $brand-color;
+        height: 2px;
+        width: 100px;
+        margin: 5px 0;
+      }
+    }
+
+    /*    & span {
+          color: #f9f9f9;
+          font-size: 90px;
+        }*/
+  }
+
+  & .col-8 {
+    flex-basis: 762px;
+    z-index: -100;
+  }
+}
